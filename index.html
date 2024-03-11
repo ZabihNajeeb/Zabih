@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="CSS/app.css" />
+    <link rel="stylesheet" href="CSS/mediaqueries.css" />
+  </head>
+  <body>
+
+    <nav id="desktop-nav">
+      <div class="logo">Zabih Najeeb</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Zabih Najeeb</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Zabih2.jpeg" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Zabih</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/ZabihNajeeb-CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Zabih1.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <br>
+              <h4>Frontend Development</h4>
+              <p>2+ Years</p>
+              <p>Back Home</p>
+              <br>
+              <h4>IT</h4>
+              <p>2+ Years</p>
+              <p>Back Home</p>
+              <br>
+              <h4>Kabul Canadian Emabssy Security Team Member</h4>
+              <p>3+ Years</p>
+              <p>Back Home</p>
+             
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <br>
+              <h4>Bachelors Computer Science  </h4>
+              <p>4+ years <br />Back Home</p>
+              <br>
+              <h4>Micro Credential Cybersecurity</h4>
+              <p>6+ months <br />Sherdin College</p>
+              <br>
+              <h4>On going Mobile Applicaiton </h4>
+              <P>TriOs College</P>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                As a highly driven individual, I bring a unique blend of technical expertise and practical experience in IT support and physical security and protection services. My academic background, including a Bachelor's degree in computer science from Kardan university, coupled with hands-on experience, has equipped me with a strong foundation in the field.
+
+                During my time at Sheridan College, I acquired valuable knowledge in cybersecurity, enhancing my skills to meet the evolving challenges in the industry. Currently enrolled in Mobile Application development at Trios College, I am actively expanding my skill set to stay abreast of the latest technologies and trends.
+                
+                What sets me apart is my ability to seamlessly blend my international background and experiences with my ongoing Canadian education. This unique combination enables me to bring diverse perspectives to problem-solving and adapt quickly to dynamic work environments.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/tickmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/tickmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermidate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/tickmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <div>
+              <article>
+                <img src="./assets/tickmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Adobe Photoshop</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              </div>
+              <article>
+                <img src="./assets/tickmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Adobe Illustrator</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/tickmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Adob XD</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/tickmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Linux Web Hosting</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/tickmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Github</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              </div>
+            </div>
+             </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">zabihnajeeb2021@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://github.com/ZabihNajeeb">Github</a></p>
+        </div>
+      </div>
+   </div>
+      </div>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p> Zabih Najeeb &#169; 2024 . </p>
+    </footer>
+ <script src="js/app.js"></script>
+  </body>
+</html>
