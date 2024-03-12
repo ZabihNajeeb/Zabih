@@ -1,1 +1,1 @@
-[# Click here for visit website.](https://zabihnajeeb.github.io/Zabih) 
+[Click here to visit website.](https://zabihnajeeb.github.io/Zabih) 
