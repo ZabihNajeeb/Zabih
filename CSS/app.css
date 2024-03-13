@@ -38,7 +38,10 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 20vh;
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 3);
+  border-radius: 10px;
+  background-color: #ffffff;
 }
 
 .nav-links {
@@ -255,7 +258,7 @@ section {
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: rgb(32, 231, 14);
 }
 
 .btn-color-2 {
@@ -422,4 +425,5 @@ footer {
 
 footer p {
   text-align: center;
+  margin: 2rem;
 }

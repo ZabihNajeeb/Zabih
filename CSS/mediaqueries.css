@@ -14,11 +14,12 @@
   .section-container {
     height: fit-content;
   }
+ 
 }
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
   }
   .about-containers {
     flex-wrap: wrap;
@@ -34,11 +35,25 @@
   .title-date{
       height: fit-content;
   }
+  .logo__pic img {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    margin: auto 0;
+    border-radius: 50%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
+  }
+  .logo__pic img {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin: auto 0;
+    border-radius: 50%;
   }
   #hamburger-nav {
     display: flex;
